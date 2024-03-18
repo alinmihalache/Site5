@@ -1,0 +1,102 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+   right:0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        margin-left:20px;
+        padding-top:5px;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+    .sidenav h1 {
+        padding: 300px 8px 100px 40px;
+        text-decoration: none;
+        font-size: 40px;
+        color: white;
+        display: block;
+        color: #818181;
+       
+    }
+
+.main {
+    margin-right:270px;
+    margin-left: 70px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+.logo {
+    justify-items:center;
+    text-align:center;
+}
+.logo img{
+    width:30%;
+    padding-top:70px;
+    
+}
+.despre h2{
+
+    font-size:35px;
+    padding-left:130px;
+    padding-top:50px;
+}
+.forma img {
+    width: 30%;
+    padding-left: 30px;
+}
+.forma1 {
+    text-align:center;
+}
+.forma1 img {
+    width: 80%;
+    padding-left: 30px;
+}
+.simbol h2 {
+    font-size: 35px;
+    padding-left: 130px;
+    padding-top: 50px;
+}
+.imag {
+    text-align:center;
+}
+.imag img{
+    width:80%;
+}
+.tex{
+    text-align:center;
+}
+.traditii h3 {
+    font-size:30px;
+    padding-top:60px;
+}
+.traditii h4 {
+    font-size:20;
+}
